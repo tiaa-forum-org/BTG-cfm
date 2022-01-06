@@ -12,7 +12,7 @@
 			<table cellpadding="0" cellspacing="0" border="0" bordercolor="red" align="center">
 			    <tr>
 			    	<td>
-						<cfform method="post" action="add1.cfm" name="button 20">
+						<cfform method="post" action="add1.cfm" name="button_20">
 							<cfinput type="Hidden" name="pass" value="#getpass.password#">
 							<cfinput type="Hidden" name="user" value="#getpass.username#">
 							<cfinput type="hidden" name="adminlevel" value="#getpass.adminlevel#">
@@ -21,7 +21,7 @@
 			          	</cfform>
 					</td>
 			    	<td>
-						<cfform method="post" action="update1.cfm"name="button 15">
+						<cfform method="post" action="update1.cfm"name="button_15">
 							<cfinput type="Hidden" name="pass" value="#getpass.password#">
 							<cfinput type="Hidden" name="user" value="#getpass.username#">
 							<cfinput type="hidden" name="adminlevel" value="#getpass.adminlevel#">
@@ -30,7 +30,7 @@
 						</cfform>
 			        </td>
 			    	<td>
-						<cfform method="post" action="delete1.cfm" name="button 20">
+						<cfform method="post" action="delete1.cfm" name="button_20">
 							<cfinput type="Hidden" name="pass" value="#getpass.password#">
 							<cfinput type="Hidden" name="user" value="#getpass.username#">
 							<cfinput type="hidden" name="adminlevel" value="#getpass.adminlevel#">
@@ -43,7 +43,7 @@
 				<cfif (#getpass.adminlevel# is 2)>
 			    <tr>
 			    	<td>
-						<cfform method="post" action="admin3.cfm"name="button 15">
+						<cfform method="post" action="admin3.cfm"name="button_15">
 							<cfinput type="Hidden" name="pass" value="#getpass.password#">
 							<cfinput type="Hidden" name="user" value="#getpass.username#">
 							<cfinput type="hidden" name="adminlevel" value="#getpass.adminlevel#">
@@ -52,7 +52,7 @@
 						</cfform>
 			        </td>
 			    	<td>
-						<cfform method="post" action="admin4.cfm"name="button 16">
+						<cfform method="post" action="admin4.cfm"name="button_16">
 							<cfinput type="Hidden" name="pass" value="#getpass.password#">
 							<cfinput type="Hidden" name="user" value="#getpass.username#">
 							<cfinput type="hidden" name="adminlevel" value="#getpass.adminlevel#">
@@ -61,7 +61,7 @@
 						</cfform>
 			        </td>
 			    	<td>
-						<cfform method="post" action="admin5.cfm"name="button 15">
+						<cfform method="post" action="admin5.cfm"name="button_15">
 							<cfinput type="Hidden" name="pass" value="#getpass.password#">
 							<cfinput type="Hidden" name="user" value="#getpass.username#">
 							<cfinput type="hidden" name="adminlevel" value="#getpass.adminlevel#">
