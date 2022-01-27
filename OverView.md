@@ -2,9 +2,9 @@
 *Bridge the Gap* (BTG) in AA is a program where a prospective member being
 released from an institution (Treatment Center, Jail, Prison, etc.) is put
 in contact with an AA member who has committed to help meet a person (often 
-at a
-meeting) and offer an introduction of him/her to the fellowship. "The Gap"
-comes from experience where, once a person has been released, many people
+at a meeting) and offer to introduce him/her to the fellowship. 
+
+"The Gap" comes from experience where, once a person has been released, many people
 never actually make it to that 1<sup>st</sup> meeting and thus a member
 may help "bridge" that gap (between the institution and the fellowship)
 which might help insure their initial success.
@@ -21,10 +21,12 @@ More information about this program in general can be found at [btgww.org]()
 which also advertises an annual conference in support of those that
 facilitate this program across the US.
 
-This app
+This app was originally created by Cheri Jones. It was originally designed
+to maintain a list of volunteers, their location and availability and
+rudimentary CRUD administrative functionality.
 ### Development Environment
-- existing ColdFusion base tied to a lucee CFM interpreter 
-(separate container)
+- existing ColdFusion base tied to a lucee CFM interpreter in a
+separate container/base
    - data stored in an SQL database that can be used either with CF or with
 subsequent ports of the app
 - create a new app in PHP which uses the same database
@@ -33,7 +35,7 @@ subsequent ports of the app
 1. Create a "dummy" app that mimics the existing functionality
 2. Create a port (presuming PHP) of the basic functionality of the existing CF
 code
-   - would just be a cf tag -> PHP re-mapping hack to account for all loose ends
+   - would just be a CF tag -> PHP re-mapping hack to account for all loose ends
 of interface and data
 3. Clean up this port and make it a modern OO design
    - MVC patterns
